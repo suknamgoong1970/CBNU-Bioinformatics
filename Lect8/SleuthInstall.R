@@ -1,0 +1,6 @@
+install.packages("BiocManager")
+BiocManager::install()
+BiocManager::install(c("rhdf5"))
+install.packages("devtools")
+install.packages("rlang")
+devtools::install_github("pachterlab/sleuth")
